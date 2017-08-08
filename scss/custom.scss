@@ -1,0 +1,24 @@
+.p-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.map{
+  height: 400px;
+}
+
+.carousel {
+  .carousel-item {
+    height: 400px;
+
+    > *:first-child {
+      background: {
+        // image: set inline on the element
+        position: 50%;
+        repeat: no-repeat;
+        size: cover;
+      }
+      height: inherit;
+    }
+  }
+}
