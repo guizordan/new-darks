@@ -2,6 +2,24 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#5cc6d0">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática e assistência técnica situada em Casca-RS">
@@ -20,6 +38,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <link href="vendor/slick/slick.css" rel="stylesheet">
+    <link href="vendor/slick/slick-theme.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -63,38 +84,28 @@
           </div>
         </div>
     </nav>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img class="d-block img-fluid" src="http://lorempixel.com/400/200/sports/Dummy-Text/" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block img-fluid" src="http://lorempixel.com/400/200/" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block img-fluid" src="http://lorempixel.com/400/200/sports/Dummy-Text/" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+
+    <header class="masthead">
+
+      <div class="hero-wrap">
+   <div class="hero hero-1"></div>
+   <div class="hero hero-2 hide"></div>
+   <div class="hero hero-3 hide"></div>
+ </div>
+
+    </header>
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
-        <div class="container">
-            <h3 class="text-center">Sobre Nós</h3>
-            <div class="row">
-              <div class="col-12">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
-              </div>
-            </div>
+      <div class="container">
+        <h3 class="text-center">Sobre Nós</h3>
+        <div class="row">
+          <div class="col-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
@@ -170,6 +181,21 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <script src="vendor/slick/slick.min.js"></script>
+
+    <script>
+    $(".hero-wrap").slick({
+  infinite: true,
+  fade: true,
+  speed: 300,
+  autoplay: true,
+  dots: true
+});
+
+
+    </script>
+
 
 </body>
 
