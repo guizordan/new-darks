@@ -90,15 +90,19 @@
     <header class="masthead">
       <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="img/banners/banner02.jpeg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="img/banners/banner01.jpeg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="img/banners/banner03.jpeg" alt="Third slide">
-          </div>
+          <?php
+            $dir    = './img/banners/';
+            $banners = array_diff(scandir($dir), array('..', '.'));
+            foreach ($banners as $key => $banner) {
+              if ($key == 2){
+                echo '<div class="carousel-item active">';
+              } else{
+                echo '<div class="carousel-item">';
+              }
+              echo '<img class="d-block img-fluid" src="img/banners/' . $banner . '">';
+              echo '</div>';
+            }
+          ?>
         </div>
         <a class="carousel-control-prev" onclick="$('#carousel').carousel('prev')">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
