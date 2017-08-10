@@ -90,14 +90,16 @@
           <?php
             $dir    = './img/banners/';
             $banners = array_diff(scandir($dir), array('..', '.'));
-            foreach ($banners as $key => $banner) {
-              if ($key == 2){
-                echo '<div class="carousel-item active">';
-              } else{
-                echo '<div class="carousel-item">';
+            if (sizeof($banners) > 0){
+              foreach ($banners as $key => $banner) {
+                if ($key == 2){
+                  echo '<div class="carousel-item active">';
+                } else{
+                  echo '<div class="carousel-item">';
+                }
+                echo '<img class="d-block img-fluid" src="img/banners/' . $banner . '">';
+                echo '</div>';
               }
-              echo '<img class="d-block img-fluid" src="img/banners/' . $banner . '">';
-              echo '</div>';
             }
           ?>
         </div>
@@ -140,12 +142,12 @@
     <section class="deep-blue" id="certification">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-6 mb-4">
             <h3 class="text-center">Certificação Digital</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
           </div>
-          <div class="col-6 text-center">
-            <img src="img/safeweb.png" height="250px">
+          <div class="col-sm-6 text-center">
+            <img src="img/safeweb.png" style="max-width: 100%;max-height: 250px;" >
           </div>
         </div>
       </div>
@@ -154,7 +156,7 @@
     <section class="black text-center" id="contact">
       <div class="container">
         <div class="row">
-          <div class="footer-col col-sm-6 mb-2">
+          <div class="footer-col col-sm-6 mb-4">
             <h3>Contato</h3>
             <p>
               e-mail: <a href="mailto:darks@darks.com.br">darks@darks.com.br</a><br/>
@@ -190,9 +192,9 @@
     </footer>
 
     <div class="scroll-top hidden-lg-up">
-        <a class="btn btn-primary page-scroll" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+      <a class="btn btn-primary page-scroll" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
     </div>
 
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -200,7 +202,6 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/freelancer.min.js"></script>
-
 </body>
 
 </html>
