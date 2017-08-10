@@ -140,12 +140,15 @@
       </div>
     </section>
 
-    <section class="deep-blue" id="certification">
+    <section id="certification">
       <div class="container">
-        <h3 class="text-center">Certificação Digital</h3>
         <div class="row">
-          <div class="col-12">
+          <div class="col-6 deep-blue">
+            <h3 class="text-center">Certificação Digital</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
+          </div>
+          <div class="col-6">
+            <img src="img/certificacaodigital.jpeg">
           </div>
         </div>
       </div>
