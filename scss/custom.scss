@@ -34,19 +34,3 @@ section{
 .map{
   height: 400px;
 }
-
-.carousel {
-  .carousel-item {
-    height: 400px;
-
-    > *:first-child {
-      background: {
-        // image: set inline on the element
-        position: 50%;
-        repeat: no-repeat;
-        size: cover;
-      }
-      height: inherit;
-    }
-  }
-}

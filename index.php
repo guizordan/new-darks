@@ -39,9 +39,6 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <link href="vendor/slick/slick.css" rel="stylesheet">
-    <link href="vendor/slick/slick-theme.css" rel="stylesheet">
-
     <!-- Temporary navbar container fix -->
     <style>
     .navbar-toggler {
@@ -60,31 +57,31 @@
 <body class="index">
 
     <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fa fa-bars"></i>
-        </button>
-        <div class="container">
-          <a class="navbar-brand" href="#page-top">
-            <img src="img/new_darks_logo.png" height="75">
-          </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+          Menu <i class="fa fa-bars"></i>
+      </button>
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">
+          <img src="img/new_darks_logo.png" height="75">
+        </a>
 
-          <div class="collapse navbar-collapse" id="navbarExample">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre nós</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#address">Endereço</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#certification">Certificação Digital</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contato</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarExample">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#address">Endereço</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certification">Certificação Digital</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contato</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <header class="masthead">
@@ -140,43 +137,41 @@
       </div>
     </section>
 
-    <section id="certification">
+    <section class="deep-blue" id="certification">
       <div class="container">
         <div class="row">
-          <div class="col-6 deep-blue">
+          <div class="col-6">
             <h3 class="text-center">Certificação Digital</h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
           </div>
-          <div class="col-6">
-            <img src="img/certificacaodigital.jpeg">
+          <div class="col-6 text-center">
+            <img src="img/safeweb.png" height="250px">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="black text-center " id="contact">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-sm-6 mb-2">
-              <h3>Contato</h3>
-              <p>
-                e-mail: <a href="mailto:darks@darks.com.br">darks@darks.com.br</a><br/>
-                Telefone: <a href="tel:0555433472401"></a> (54) 3347-2401 br
-                skype: oi@darks.com.br <br>
-              </p>
-            </div>
-            <div class="footer-col col-sm-6">
-              <h3>Nas redes sociais</h3>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" target="_blank"
-                  href="https://www.facebook.com/New-Darks-Inform%C3%A1tica-461065287302460/">
-                    <i class="fa fa-fw fa-facebook"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+    <section class="black text-center" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-sm-6 mb-2">
+            <h3>Contato</h3>
+            <p>
+              e-mail: <a href="mailto:darks@darks.com.br">darks@darks.com.br</a><br/>
+              Telefone: <a href="tel:0555433472401"></a> (54) 3347-2401 <br>
+              skype: oi@darks.com.br <br>
+            </p>
+          </div>
+          <div class="footer-col col-sm-6">
+            <h3>Nas redes sociais</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="btn-social btn-outline" target="_blank"
+                href="https://www.facebook.com/New-Darks-Inform%C3%A1tica-461065287302460/">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -194,25 +189,16 @@
       </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top hidden-lg-up">
         <a class="btn btn-primary page-scroll" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-
-    <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
 </body>
