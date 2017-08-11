@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br" id="page-top">
+  <head>
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#5cc6d0">
 
-<head>
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#5cc6d0">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática e assistência técnica situada em Casca-RS">
+      <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica">
+      <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática e assistência técnica situada em Casca-RS">
-    <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica">
-    <meta name="author" content="">
+      <title>New Dark's Informática - Sempre o melhor pra você</title>
 
-    <title>New Dark's Informática - Sempre o melhor pra você</title>
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template -->
+      <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <!-- Custom styles for this template -->
+      <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+      <!-- Temporary navbar container fix -->
+      <style>
+      .navbar-toggler {
+          z-index: 1;
+      }
 
-    <!-- Temporary navbar container fix -->
-    <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
+      @media (max-width: 576px) {
+          nav > .container {
+              width: 100%;
+          }
+      }
+      </style>
 
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-    </style>
+  </head>
 
-</head>
-
-<body class="index">
-
+  <body class="index">
     <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
           Menu <i class="fa fa-bars"></i>
@@ -68,13 +66,16 @@
         <div class="collapse navbar-collapse" id="navbarExample">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre nós</a>
+              <a class="nav-link" href="#about">Quem Somos?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#address">Endereço</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#certification">Certificação Digital</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#topics">Soluções</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contato</a>
@@ -116,10 +117,12 @@
 
     <section id="about">
       <div class="container">
-        <h3 class="text-center">Sobre Nós</h3>
+        <h3 class="text-center">Quem Somos?</h3>
         <div class="row">
           <div class="col-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat feugiat hendrerit. Aenean consequat turpis sit amet nibh sollicitudin tincidunt. Curabitur convallis blandit mollis. Nunc eget magna condimentum, auctor quam quis, pellentesque ipsum. Mauris vel ante posuere, rutrum sapien a, semper lorem. Morbi placerat sagittis sapien eget convallis. Aliquam ut suscipit mauris, ac faucibus velit. Donec sodales ut felis in pulvinar. Morbi euismod eu dolor sit amet consectetur. Suspendisse a blandit tellus. Aliquam neque augue, tempus et nulla vitae, viverra ornare ipsum.
+            <p>A empresa New Dark's Informática, foi fundada no ano de 2007 com o objetivo de oferecer produtos e serviços de qualidade, atendendo as necessidades das pessoas físicas e jurídicas de nossa cidade e região. </p>
+            <p> Com o passar dos anos a empresa foi crescendo, se destacando e criando parcerias, atualmente contando com objetivos diferenciados, profissionais qualificados com uma constante busca da melhor solução ao nosso cliente e tendo em sua raiz os princípios que a fazem se destacar no mercado, a empresa conta com setores de venda de equipamentos e produtos de informática, móveis e cadeiras para escritório, instrumentos musicais e som profissional, representação de sinal de internet via rádio e fibra óptica NET 11, certificação digital Safeweb e-CPF e e-CNPJ, e láboratório de assitência técnica especializada.</p>
+            <p> Nosso maior objetivo é a satisfação do nosso cliente, e a nossa paixão pela informática é o que nos move, rendendo assim a realização do nosso sonho pessoal e profissional todos os dias.</p>
           </div>
         </div>
       </div>
@@ -148,6 +151,46 @@
           </div>
           <div class="col-sm-6 text-center">
             <img src="img/safeweb.png" style="max-width: 100%;max-height: 250px;" >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-1" id="topics">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center">Soluções</h3> <br>
+          </div>
+          <div class="col-md-4 text-center mb-5">
+            <div style="background-image: url('img/topics/equipamento.jpg');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Venda de periféricos e equipamentos de informática</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div style="background-image: url('img/topics/tecnica.png');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Assistência técnica especializada</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div style="background-image: url('img/topics/certificacao.jpg');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Certificação Digital</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div style="background-image: url('img/topics/escritorio.jpg');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Móveis e cadeiras para escritório</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div style="background-image: url('img/topics/som.jpg');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Instrumentos musicais e equipamentos de som</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div style="background-image: url('img/topics/smartphone.jpg');" class="topic-img"></div>
+            <br>
+            <p class="text-center">Venda de eletrônicos, smartphones e tablets</p>
           </div>
         </div>
       </div>
@@ -202,6 +245,6 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/freelancer.min.js"></script>
-</body>
+  </body>
 
 </html>

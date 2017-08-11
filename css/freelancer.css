@@ -450,9 +450,18 @@ footer {
 .btn.active {
   outline: none; }
 
+.topic-img {
+  border-radius: 100%;
+  margin: 0 auto;
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 section {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-top: 70px;
+  padding-bottom: 60px; }
   section.black {
     color: white;
     background: black; }
@@ -466,3 +475,8 @@ section {
 
 .map {
   height: 400px; }
+
+@media (min-width: 992px) {
+  section {
+    padding-top: 130px;
+    padding-bottom: 120px; } }
