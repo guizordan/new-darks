@@ -22,7 +22,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática, móveis e cadeiras de escritório, sistemas gerenciais e instrumentos musicais. Especializada em assistência técnica e certificação digital, fica situada em Casca-RS">
-      <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica">
+      <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica, certificacao, digital, instrumentos, musicais, loja, casca, rio, grande, do, sul, rs">
       <meta name="author" content="">
 
       <title>New Dark's Informática - Sempre o melhor pra você</title>
