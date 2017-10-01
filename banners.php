@@ -11,7 +11,7 @@
             } else{
               echo '<div class="carousel-item">';
             }
-            echo '<img class="d-block w-100" src="img/banners/' . $banner . '">';
+            echo '<img class="d-block" src="img/banners/' . $banner . '">';
             echo '</div>';
           }
         }
