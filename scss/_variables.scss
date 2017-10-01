@@ -6,9 +6,10 @@ $theme-primary:    black;
 $theme-success:    #5cc6d0;
 $deep-blue:        #3e4095;
 
-$gray-base:        #000;
-$gray-darker:      lighten($gray-base, 13.5%); // #222
-$gray-dark:        lighten($gray-base, 20%);   // #333
-$gray:             lighten($gray-base, 33.5%); // #555
-$gray-light:       lighten($gray-base, 46.7%); // #777
-$gray-lighter:     lighten($gray-base, 93.5%); // #eee
+
+$gray-base: #000;
+$gray-darker: lighten($gray-base, 13.5%);
+$gray-dark: lighten($gray-base, 20%);
+$gray: lighten($gray-base, 33.5%);
+$gray-light: lighten($gray-base, 46.7%);
+$gray-lighter: lighten($gray-base, 93.5%);

@@ -21,7 +21,7 @@
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática e assistência técnica situada em Casca-RS">
+      <meta name="description" content="A New Dark's Informática é uma loja de equipamentos de informática, móveis e cadeiras de escritório, sistemas gerenciais e instrumentos musicais. Especializada em assistência técnica e certificação digital, fica situada em Casca-RS">
       <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica">
       <meta name="author" content="">
 
@@ -38,19 +38,6 @@
       <!-- Custom styles for this template -->
       <link href="css/freelancer.min.css" rel="stylesheet">
 
-      <!-- Temporary navbar container fix -->
-      <style>
-      .navbar-toggler {
-          z-index: 1;
-      }
-
-      @media (max-width: 576px) {
-          nav > .container {
-              width: 100%;
-          }
-      }
-      </style>
-
   </head>
 
   <body class="index">
@@ -63,17 +50,25 @@
     <?php include 'contato.html'; ?>
     <?php include 'footer.html'; ?>
 
-
-    <div class="scroll-top hidden-lg-up">
-      <a class="btn btn-primary page-scroll" href="#page-top">
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
 
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
   </body>
 
