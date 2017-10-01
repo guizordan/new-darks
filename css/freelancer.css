@@ -450,6 +450,10 @@ footer {
 .btn.active {
   outline: none; }
 
+p {
+  text-align: justify !important;
+  text-justify: inter-word !important; }
+
 .topic-img {
   border-radius: 100%;
   margin: 0 auto;
