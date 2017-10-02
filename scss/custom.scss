@@ -1,11 +1,25 @@
-*{
+p{
   font-size: 18px;
   text-align: justify !important;
   text-justify: inter-word !important;
 }
 
-.fa{
-  padding-left: 15%;
+h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.50rem !important;
+  margin-bottom: 12px !important;
+}
+
+.carousel-item{
+  img{
+    max-height: 500px;
+    max-width: 100%;
+  }
+}
+
+.f-18{
+  font-size: 18px;
 }
 
 .topic-img{
@@ -19,7 +33,7 @@
 }
 
 section{
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 60px;
 
   &.black{
@@ -46,5 +60,15 @@ section{
   section{
     padding-top: 110px;
     padding-bottom: 100px;
+  }
+}
+
+header.masthead {
+  padding-bottom: 0px !important;
+}
+
+@media (min-width: 768px){
+  header.masthead {
+    padding-top: 135px;
   }
 }
