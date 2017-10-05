@@ -18,11 +18,17 @@ h1{
   }
 }
 
+header.masthead img {
+  display: block;
+  margin: auto;
+}
+
 .f-18{
   font-size: 18px;
 }
 
 .topic-img{
+  border: 1px solid black;
   border-radius: 100%;
   margin: 0 auto;
   height: 140px;
