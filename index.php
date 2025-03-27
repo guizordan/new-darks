@@ -16,8 +16,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#5cc6d0">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">C
+    <meta name="theme-color" content="#115ca5">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +25,7 @@
     <meta name="keywords" content="informática, darks, dark's, new, equipamentos, assistência, técnica, certificacao, digital, instrumentos, musicais, loja, casca, rio, grande, do, sul, rs">
     <meta name="author" content="">
 
-    <title>New Dark's Informática - Sempre o melhor pra você</title>
+    <title>New Dark's Informática e Certificação Digital</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
