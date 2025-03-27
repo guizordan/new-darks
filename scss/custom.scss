@@ -1,18 +1,18 @@
-p{
+p {
   font-size: 18px;
   text-align: justify !important;
   text-justify: inter-word !important;
 }
 
-h1{
+h1 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.50rem !important;
+  font-size: 1.5rem !important;
   margin-bottom: 12px !important;
 }
 
-.carousel-item{
-  img{
+.carousel-item {
+  img {
     max-height: 500px;
     max-width: 100%;
   }
@@ -23,11 +23,11 @@ header.masthead img {
   margin: auto;
 }
 
-.f-18{
+.f-18 {
   font-size: 18px;
 }
 
-.topic-img{
+.topic-img {
   border: 1px solid black;
   border-radius: 100%;
   margin: 0 auto;
@@ -38,32 +38,32 @@ header.masthead img {
   background-position: center;
 }
 
-section{
+section {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  &.black{
+  &.black {
     color: white;
     background: black;
   }
 
-  &.deep-blue{
+  &.deep-blue {
     color: white;
     background: $deep-blue;
   }
 }
 
-.p-100{
+.p-100 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.map{
+.map {
   height: 400px;
 }
 
-@media(min-width:992px) {
-  section{
+@media (min-width: 992px) {
+  section {
     padding-top: 110px;
     padding-bottom: 100px;
   }
@@ -73,8 +73,18 @@ header.masthead {
   padding-bottom: 0px !important;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   header.masthead {
-    padding-top: 135px;
+    padding-top: 77px;
   }
+}
+
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.box {
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
