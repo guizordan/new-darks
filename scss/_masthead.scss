@@ -2,14 +2,12 @@
 header.masthead {
   padding-top: 77px;
   padding-bottom: 50px;
-
   text-align: center;
-
   color: white;
-  background: $theme-success;
+  background: black !important;
+
   img {
     display: block;
-
     margin: 0 auto 20px;
   }
   .intro-text {

@@ -199,7 +199,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #115ca5;
+  background: black !important;
 }
 header.masthead img {
   display: block;
@@ -572,7 +572,7 @@ section.black {
 }
 section.deep-blue {
   color: white;
-  background: #3e4095;
+  background: #115ca5;
 }
 
 .p-100 {
